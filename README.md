@@ -32,7 +32,7 @@ Hardware inside the box
 ![PCB inside the box](./Docs/hw3.jpg)
 
 
-![PCB close up](./Docs/hw4.jpg)
+![PCB close up](./Docs/hw4.png)
 
 ## Software
 The Muscle-BioAmp-BisCute circuit provides a decent Arduino sketch that does everything for you. All you have to do is open the sketch and flash it. You can also find a copy of the firmware in the `Software/` folder.
