@@ -16,10 +16,23 @@ The differential voltage input from **Electrode A** and **Electode B** is taken 
 ## Electrode Placement
 ![Physical Connections](./Docs/ElectrodePlacementExample.jpg)
 
-## Hardware Design
+## Circuit Design
 The hardware design was borrowed from [Upside Down Labs Muscle-BioApm-BisCute](https://github.com/upsidedownlabs/Muscle-BioAmp-BisCute) which is an incredibly simple circuit to get started with EMG. They have an amazing documentation and readily available boards on [Amazon](https://www.amazon.in/BisCute-Accessories-Upside-Down-Labs/dp/B0BDRFL2VY/ref=sr_1_1?qid=1684148917&refinements=p_89%3AUpside+Down+Labs&s=industrial&sr=1-1), [Tindie](https://www.tindie.com/products/upsidedownlabs/muscle-bioamp-biscute-diy-muscle-sensor/) and their [self hosted webstore](https://store.upsidedownlabs.tech/product/muscle-bioamp-biscute-diy/). Here is the schematic that was used for the design:
 
+The only difference between both the designs is that I used TL074 instead of LM324 as Operational Amplifiers in the circuit.
+
 ![Circuit Diagram](./Docs/schematic.png)
+
+## Actual Hardware
+Three electrodes have to be connected to the box and the USB cable goes to a laptop (running on battery, very important)!
+![Hardware inside a General Purpose Box](./Docs/hw1.jpg)
+![](./Docs/hw2.jpg)
+
+Hardware inside the box
+![PCB inside the box](./Docs/hw3.jpg)
+
+
+![PCB close up](./Docs/hw4.jpg)
 
 ## Software
 The Muscle-BioAmp-BisCute circuit provides a decent Arduino sketch that does everything for you. All you have to do is open the sketch and flash it. You can also find a copy of the firmware in the `Software/` folder.
