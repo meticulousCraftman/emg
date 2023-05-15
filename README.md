@@ -20,4 +20,5 @@ The Muscle-BioAmp-BisCute circuit provides a decent Arduino sketch that does eve
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8fpB3Ov8SRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![YouTube Demo Video](https://img.youtube.com/vi/8fpB3Ov8SRo/maxresdefault.jpg)](https://www.youtube.com/watch?v=8fpB3Ov8SRo)
+
